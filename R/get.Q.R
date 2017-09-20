@@ -1,5 +1,5 @@
 get.Q <-
-function(TL,beta){
+function(TL,beta=0){
     p=length(TL)
     M=nrow(TL[[1]])
     A=Matrix(0,nrow=M,ncol=M,sparse=T)

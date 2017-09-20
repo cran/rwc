@@ -125,7 +125,7 @@ Phi=get.Phi(Q,samp.cells)
 
 
 ## simulate from ibr model
-D.rand.ibr=rGenWish(df=20,Sigma=K%*%ginv(as.matrix(Phi))%*%t(K) + diag(nsamps)*tau)
+D.rand.ibr=rGenWish(df=20,Sigma=K\%*\%ginv(as.matrix(Phi))\%*\%t(K) + diag(nsamps)*tau)
 image(D.rand.ibr)
 
 
@@ -161,7 +161,7 @@ nll.gen.wish.icar <- function(theta,D,df,TL,obs.idx){
     ## get covariance matrix of observations
     Sigma.nodes=ginv(as.matrix(Phi))
     Sigma.nodes=Sigma.nodes/max.diag
-    Psi=K%*%Sigma.nodes%*%t(K)+tau*diag(nrow(K))
+    Psi=K\%*\%Sigma.nodes\%*\%t(K)+tau*diag(nrow(K))
     ## get nll
     nll=-dGenWish(D,Psi,df,log=TRUE)
     nll

@@ -2,8 +2,12 @@ exportPattern("^[[:alpha:]]+")
 import(raster)
 import(Matrix)
 import(mvtnorm)
-importFrom("stats", "rnorm")
+importFrom("stats", "dnorm", "rnorm", "runif", "var")
 importFrom("MASS", "ginv")
+importFrom("grDevices", "dev.off", "pdf") 
+importFrom("graphics", "abline", "legend", "matplot")
+
+
 
 
 

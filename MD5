@@ -1,11 +1,12 @@
-e91e05c788bc450912332c94be3fb5c3 *DESCRIPTION
-604d010310a25d03b0647b0bbd521264 *NAMESPACE
+c66ed1bff1102bf2195d291c6012d733 *DESCRIPTION
+299fec50d7cb8b5af482179ae898b800 *NAMESPACE
 5c4ccb98e29986230e9c7923ba63d354 *R/cov.from.dist.R
 3da2508434d92a75ecff934a946d6a2b *R/dGenWish.R
 a78fd565b7a2849c87436a3d13b79f6f *R/dist.from.cov.R
 5981565f2851f14226c38742598eb9d6 *R/get.Phi.R
-b124295b6d32eab128ae08e4fe2051c2 *R/get.Q.R
+7197cf46f9be8190a794e20703460082 *R/get.Q.R
 384b44334aeccafdcaadd2bd0d894fb2 *R/get.TL.R
+b3dfd61d0619037758367fc6d6a53a6a *R/mcmc.wish.icar.R
 9b7c186d1ed87070f6824d01d8029563 *R/rGenWish.R
 85ddabe7ccf124cb86173ce6daac1a94 *R/rnorm.Q.R
 bf6a75f2967fef3505433e80489cd412 *man/cov.from.dist.Rd
@@ -14,6 +15,7 @@ bf6a75f2967fef3505433e80489cd412 *man/cov.from.dist.Rd
 fbba5ba6515e34036ff7cf4483f4efbd *man/get.Phi.Rd
 92690ae7c57f89e57d3d557b97da4167 *man/get.Q.Rd
 ce4f2ae4222c2e06688011e10bf0df57 *man/get.TL.Rd
+e5867fcd44e83b4ee2c9e1efb93ef2b8 *man/mcmc.wish.icar.Rd
 06dfe088151e291b436df7d19d347398 *man/rGenWish.Rd
 9e6dab7e3707f6a9b721e747038fc55d *man/rnorm.Q.Rd
-bde59e721b848ebe01dae49251c312b3 *man/rwc-package.Rd
+15be49cf4e32e7f4d838618265e1c2e1 *man/rwc-package.Rd
