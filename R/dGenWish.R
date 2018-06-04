@@ -7,7 +7,7 @@ function(Dobs,Sigma, df,log=FALSE){
     ## ll= df/2*log|Sigma.inv*A| + 1/4*tr(Sigma.inv*A*D)
     ##
     L=Diagonal(nrow(Sigma)-1,1)
-    L=cBind(L,-1)
+    L=cbind(L,-1)
     LDL= L%*%(-Dobs)%*%t(L)
     W= L%*%(2*Sigma)%*%t(L)
     EE=eigen(W,symmetric=TRUE)
