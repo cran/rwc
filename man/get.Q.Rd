@@ -6,8 +6,8 @@
 %%  ~~function to do ... ~~
 }
 \description{Creates a precision matrix Q, with off diagonal entries
-  equal to exp{b1*x_1ij + ... + bp*x_pij}, where beta=(b1,b2,...,bp) is
-  a vector of log-conductance values of the covariates {x_kij}.  Each
+  equal to exp(b1*x_1ij + ... + bp*x_pij), where beta=(b1,b2,...,bp) is
+  a vector of log-conductance values of the covariates x_kij.  Each
   x_kij is equal to (x_ki+x_kj)/2.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
@@ -61,5 +61,5 @@ Q.int=get.Q(B.int,1)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+%\keyword{ ~kwd1 }
+%\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

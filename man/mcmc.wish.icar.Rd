@@ -70,7 +70,7 @@ mcmc.wish.icar(Dobs, TL, obs.idx, df=1,
 by
 
 Q_ij = exp( b0 + b1 x_1ij + ... + bp x_pij ), where beta=(b1,b2,...,bp) is
-  a vector of log-conductance values of the covariates {x_kij}.  Each
+  a vector of log-conductance values of the covariates x_kij.  Each
   x_kij is equal to (x_ki+x_kj)/2.
 
   The prior on beta is N(beta.prior.mean,beta.prior.cov), and the prior
@@ -211,5 +211,5 @@ str(fit)
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+%\keyword{ ~kwd1 }
+%\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

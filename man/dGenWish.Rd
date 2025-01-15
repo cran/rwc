@@ -45,7 +45,7 @@ dGenWish(Dobs, Sigma, df,log=FALSE)
   Following this formulation, the log-likelihood computed here (up to an
   additive constant) is
 
-  -df/2*log|L(2*Sigma)L'| -1/2*tr{ (L(2*Sigma)L')^-1 L(-D)L' }
+  -df/2*log|L(2*Sigma)L'| -1/2*tr( (L(2*Sigma)L')^-1 L(-D)L' )
   
 %%  ~~ If necessary, more details than the description above ~~
 }
@@ -106,5 +106,5 @@ ll
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+%\keyword{ ~kwd1 }
+%\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
